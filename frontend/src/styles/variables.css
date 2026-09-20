@@ -1,0 +1,48 @@
+/* =======================================================
+   ANU HOME FOODS - Brand Color System & CSS Variables
+   ======================================================= */
+
+:root {
+  /* Brand Palette */
+  --chili-red: #B81820;
+  --chili-red-hover: #981219;
+  --mustard-gold: #E5A523;
+  --mustard-gold-hover: #cb8f16;
+  --pickle-green: #67744A;
+  --pickle-green-dark: #4e5936;
+  --brine-beige: #D9C09C;
+  --cream: #FFF8E7;
+  --cream-dark: #f8efd8;
+  --dark-brown: #2A1B14;
+  --dark-brown-light: #3D271D;
+  --thick-brown: #24160E;
+  --white: #FFFFFF;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #B81820 0%, #E5A523 100%);
+  --gradient-secondary: linear-gradient(135deg, #67744A 0%, #D9C09C 100%);
+  --gradient-gold: linear-gradient(135deg, #E5A523 0%, #f7c768 100%);
+  --gradient-hero: linear-gradient(110deg, #6c1815 0%, #b81820 45%, #7a1211 100%);
+  --gradient-cream: linear-gradient(180deg, #FFF8E7 0%, #f7ebd0 100%);
+
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Outfit', sans-serif;
+
+  /* Elevation Shadows */
+  --shadow-sm: 0 4px 12px rgba(43, 33, 24, 0.06);
+  --shadow-md: 0 10px 25px rgba(43, 33, 24, 0.12);
+  --shadow-lg: 0 15px 35px rgba(184, 24, 32, 0.18);
+  --shadow-card-hover: 0 16px 32px rgba(43, 33, 24, 0.16);
+
+  /* Borders & Radius */
+  --border-color: #e8d9c5;
+  --border-radius-sm: 6px;
+  --border-radius: 12px;
+  --border-radius-lg: 20px;
+  --border-radius-pill: 30px;
+
+  /* Transitions */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: all 0.18s ease;
+}

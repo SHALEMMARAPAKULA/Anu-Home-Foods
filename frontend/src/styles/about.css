@@ -1,0 +1,83 @@
+/* About Us Page & Trust Section Styling */
+
+.about-page {
+  padding: 60px 0 90px 0;
+}
+
+.about-hero {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+}
+
+.about-story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.story-img-box {
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 3px solid var(--mustard-gold);
+}
+
+.story-content h2 {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  color: var(--dark-brown);
+  margin-bottom: 20px;
+}
+
+.story-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #55483c;
+  margin-bottom: 18px;
+}
+
+/* Solid Pickle Green Major Section */
+.green-trust-banner {
+  background: #4B5834;
+  color: var(--white);
+  padding: 60px 40px;
+  border-radius: var(--border-radius-lg);
+  margin: 60px 0;
+  box-shadow: var(--shadow-md);
+}
+
+.trust-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.trust-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: var(--border-radius);
+  padding: 26px 20px;
+  text-align: center;
+}
+
+.trust-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.trust-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: var(--white);
+}
+
+.trust-card-desc {
+  font-size: 0.9rem;
+  color: #f7eedf;
+}

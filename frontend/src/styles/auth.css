@@ -1,0 +1,91 @@
+/* Authentication (Login / Register) Styles */
+
+.auth-page {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 300px);
+}
+
+.auth-card {
+  background: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 40px 35px;
+  width: 100%;
+  max-width: 460px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.auth-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.auth-title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--dark-brown);
+  margin-bottom: 6px;
+}
+
+.auth-subtitle {
+  font-size: 0.92rem;
+  color: #776a5c;
+  margin-bottom: 30px;
+}
+
+.btn-google {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  background: var(--white);
+  padding: 12px;
+  border-radius: var(--border-radius-sm);
+  font-weight: 600;
+  color: var(--dark-brown);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  transition: var(--transition);
+}
+
+.btn-google:hover {
+  background: var(--cream);
+}
+
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+  color: #999;
+  font-size: 0.85rem;
+}
+
+.divider-text::before, .divider-text::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: var(--border-color);
+}
+
+.divider-text::before { left: 0; }
+.divider-text::after { right: 0; }
+
+.auth-footer-link {
+  margin-top: 25px;
+  font-size: 0.92rem;
+  color: #665a4e;
+}
+
+.auth-footer-link a {
+  color: var(--chili-red);
+  font-weight: 700;
+}

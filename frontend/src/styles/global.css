@@ -1,0 +1,131 @@
+/* =======================================================
+   ANU HOME FOODS - Global Styles & CSS Resets
+   ======================================================= */
+@import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--cream);
+  color: var(--dark-brown);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: var(--font-body);
+  transition: var(--transition);
+}
+
+input, select, textarea {
+  font-family: var(--font-body);
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Badge Styles */
+.badge-veg {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid #008738;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #008738;
+  background-color: rgba(0, 135, 56, 0.08);
+}
+
+.badge-nonveg {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid #b81820;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #b81820;
+  background-color: rgba(184, 24, 32, 0.08);
+}
+
+.badge-discount {
+  background-color: var(--mustard-gold);
+  color: var(--dark-brown);
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: var(--border-radius-pill);
+}
+
+.badge-bestseller {
+  background-color: var(--chili-red);
+  color: var(--white);
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: var(--border-radius-pill);
+}
+
+/* Utility Section Dividers */
+.section-divider {
+  height: 3px;
+  width: 80px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+  margin: 15px auto 30px auto;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #7a6b5d;
+  margin-bottom: 25px;
+}
+
+.breadcrumb a {
+  color: var(--pickle-green);
+  font-weight: 500;
+}
+
+.breadcrumb a:hover {
+  color: var(--chili-red);
+}
