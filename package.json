@@ -1,0 +1,11 @@
+{
+  "name": "anu-home-foods",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ANU HOME FOODS - Full-Stack Homemade Andhra Pickles E-Commerce Application",
+  "scripts": {
+    "start": "start_server.bat",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}
